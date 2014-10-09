@@ -1,0 +1,2 @@
+mex  -I./linalg/ -I./decomp/ -I./dictLearn/ dictLearn/mex/mexTrainDL.cpp -largeArrayDims -lmwblas -lmwlapack -DUSE_BLAS_LIB -outdir ./build/
+mex  -I./linalg/ -I./decomp/ decomp/mex/mexLasso.cpp -largeArrayDims -lmwblas -lmwlapack -DUSE_BLAS_LIB -outdir ./build/

@@ -1,3 +1,8 @@
+addpath internal
+addpath spams
+addpath spams/src_release
+addpath spams/build
+
 im = im2double(imread('2007_000272.jpg'));
 feat = features(im, 8);
 ihog = invertHOG(feat);
